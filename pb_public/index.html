@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestione documenti</title>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="inner-content">
+                <img src="/assets/logo.png" alt="Logo Amministrazione provinciale di Forlì-Cesena" style="width: 100px;">
+                <h1>Gestione documenti</h1>
+                <form action="/links" method="get" style="display: flex;">
+                    <input type="text" autocomplete="off" class="id_input" name="id" placeholder="ID documento" style="border: 1px solid #0458ad; border-radius: 5px 0 0 5px;">
+                    <button role="submit" class="btn" style="border-radius: 0 5px 5px 0;">Invio</button>
+                </form>
+                <p style="font-size: 1rem;">Inserire l'ID del documenti nella casella qui sopra poi premere Invio</p>
+            </div>
+        </div>
+    </div>
+    <script>document.querySelector('.id_input').focus();</script>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* index page */
+.id_input {
+    padding: 15px;
+}
+
+body {
+    font-size: 1.2rem;
+}
+
+h1,h2,h3,h4,h5,h6,p {color: #6F7887;}
+.text-red {color: #dd0000;}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0px 0px 20px 0px #ddd;
+}
+
+.btn {
+    padding: 15px;
+    background-color: #0458ad;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: #0458addd;
+}
+
+.btn svg {
+    margin-right: 7px;
+}
+
+.content {
+    background-color: #F0F1F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.inner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6,
+.content p {
+    margin: 15px 0;
+}
+
+.file-error a,
+.file-error a:visited {
+    color: blue;
+}
+@media screen and (max-width: 600px) {
+    .banner {
+        display: block;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
