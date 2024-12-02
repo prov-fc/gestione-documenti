@@ -2,7 +2,7 @@
 <h3 align="center">Gestione documenti</h3>
 
 <p align="center">
-    Una applicazione per la gestione di documenti online
+    Un'applicazione per la gestione di documenti online
 </p>
 
 <!-- ABOUT THE PROJECT -->
@@ -13,7 +13,7 @@
 </p>
 Questo progetto utilizza Pocketbase (v0.22.23) per la gestione di documenti caricati online, e per la creazione di un codice QR che punta alla pagina dove si può scaricare questo documento.
 
-L'esigenza è nata da un ufficio interno che ha la necessità di poter ottenere il documento firmato digitalmente da un documento cartaceo.
+L'esigenza è nata da un ufficio interno che distribuisce documenti cartacei ottenuti da un documento originario che è nativamente digitale. La necessità è quella di poter verificare l'autenticità e la validità del documento cartaceo ottenendo il suo gemello digitale per verificare che, sia il contenuto che la firma apposta, anch'essa digitale, siano autentici.
 
 Usando questa applicazione, si può creare un codice QR da poter inserire su un documento cartaceo, che poi a sua volta punterà al documento firmato digitalmente.
 
@@ -26,23 +26,23 @@ Qui trovi le istruzioni sul come far funzionare questo progetto in locale.
 ### Installazione
 
 1. Scaricare Pocketbase (`v0.22.23`) da [https://github.com/pocketbase/pocketbase/releases/tag/v0.22.23](https://github.com/pocketbase/pocketbase/releases/tag/v0.22.23)
-2. Clonare questa repository in locale
+2. Clonare questo repository in locale
    ```sh
    git clone https://github.com/prov-fc/repo_name.git
    ```
-3. Spostare `pocketbase.exe` nella repository clonata
+3. Spostare `pocketbase.exe` nel repository clonato
 4. Cambiare la riga in pb_hooks/main.pb.js con il dominio che si desidera per il QR code:
    ```js
    const qrdata = encodeURIComponent("https://cambia_il_dominio/links?id=" + e.record.id);
    ```
-5. Aprire un terminale nella repository clonata, e avviare il programma:
+5. Aprire un terminale nel repository clonato, e avviare il programma:
    ```sh
    pocketbase.exe serve
    ```
-6. Andare tramite il browser su `http://localhost:8090/_/` e seguire i passi per creare un account amministratore
+6. Andare tramite il browser su `http://localhost:8090/_/` e seguire i passi per creare un account amministratore.
 7. Andare su `Settings > Import Collections > Load from JSON file` e selezionare il file pb_schema.json
 8. Cliccare su `Review` e poi su `Confirm and import`. Nella schermata di conferma, cliccare `Yes`.
-9. Tornare su Collections. Si dovrebbe vedere solamente la collection "Links"
+9. Tornare su Collections. Si dovrebbe vedere solamente la collection "Links".
 
 
 ## Come si usa
@@ -89,12 +89,12 @@ Da capire se la richiesta "si ferma" su IIS o se IIS gira correttamente ma Pocke
 Verificare che pocketbase è in esecuzione.
 
 **NON MI GENERA UN QR CODE**<br>
-La generazione dipende da un API esterno.<br>
+La generazione dipende da un'API esterna.<br>
 Se l'API da problemi, cambiare il codice del hook in pb_hooks/main.pb.js<br>
 
 **DEVO AGGIUNGERE UN NUOVO ACCOUNT**<br>
-TRAMITE GUI: Entrare nel GUI con un account admin e aggiungerne un altro<br>
-TRAMITE CLI: Eseguire pocketbase.exe da riga di comando e seguire i passi per la gestione di admin<br>
+TRAMITE GUI: Entrare nel GUI con un account admin e aggiungerne un altro.<br>
+TRAMITE CLI: Eseguire pocketbase.exe da riga di comando e seguire i passi per la gestione di admin.<br>
 	
 **QUESTE INFO NON BASTANO!**<br>
 Andare sul sito di documentazione di Pocketbase e diventare più saggi:<br>
