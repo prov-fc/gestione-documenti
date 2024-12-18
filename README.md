@@ -9,7 +9,7 @@
 ## Informazioni sul progetto
 
 <p align="center">
-   <img src="screenshots/backoffice.png" alt="Schermata del backoffice di Glifo" />
+   <img src="screenshots/back-office.png" alt="Schermata del backoffice di Glifo" />
 </p>
 Questo progetto utilizza Pocketbase (v0.22.23) per la gestione di documenti caricati online, e per la creazione di un codice QR che punta alla pagina dove si può scaricare questo documento.
 
