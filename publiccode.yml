@@ -36,6 +36,9 @@ description:
       - screenshots/back-office-edit.png
       - screenshots/front-office.png
       - screenshots/front-office-mobile.png
+      - screenshots/front-office-home.png
+      - screenshots/front-office-non-trovato.png
+      - screenshots/front-office-revocato.png
 legal:
   license: MIT
 maintenance:

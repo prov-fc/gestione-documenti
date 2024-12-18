@@ -111,4 +111,7 @@ Per maggiori informazioni su questo applicativo, la preghiamo di contattare l'uf
 <img src="screenshots/back-office-edit.png">
 <img src="screenshots/front-office.png">
 <img src="screenshots/front-office-mobile.png">
+<img src="screenshots/front-office-home.png">
+<img src="screenshots/front-office-non-trovato.png">
+<img src="screenshots/front-office-revocato.png">
 <img src="screenshots/screenshot.gif">
