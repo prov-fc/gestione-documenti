@@ -1,0 +1,47 @@
+publiccodeYmlVersion: "0.4"
+name: Glifo
+url: https://github.com/prov-fc/glifo
+landingURL: https://github.com/prov-fc/glifo
+softwareVersion: "1.0"
+releaseDate: 2024-12-02
+platforms:
+  - web
+categories:
+  - document-management
+usedBy:
+  - Amministrazione Provinciale di Forlì-Cesena
+developmentStatus: stable
+softwareType: standalone/web
+description:
+  it:
+    genericName: Glifo
+    localisedName: Glifo
+    shortDescription: Gestione di documenti digitali con creazione QR code
+    longDescription: >-
+      Questa applicazione consente di associare un documento cartaceo con il suo
+      documento originale in formato digitale attraverso l'apposizione di un
+      contrassegno elettronico. Questo si fa tramite la creazione di un codice
+      QR che verrà applicato nel documento che punta al percorso del documento
+      digitale originale, in modo che inquadrando il codice QR presente nel
+      documento cartaceo sarà possibile visualizzare il documento digitale e
+      verificarne la firma.
+
+      Rif.
+      https://www.agid.gov.it/it/piattaforme/sistema-gestione-procedimenti-amministrativi/timbro-digitale
+    features:
+      - Gestione documenti
+      - Contrassegno elettronico
+    screenshots:
+      - screenshots/backoffice.png
+      - screenshots/backoffice-edit.png
+      - screenshots/front-office.png
+      - screenshots/front-office-mobile.png
+legal:
+  license: MIT
+maintenance:
+  type: internal
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - it-IT
+    - en-US

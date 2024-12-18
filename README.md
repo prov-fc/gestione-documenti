@@ -1,15 +1,15 @@
 
-<h3 align="center">Gestione documenti</h3>
+<h3 align="center">Glifo</h3>
 
 <p align="center">
-    Un'applicazione per la gestione di documenti online
+    Un'applicazione per la gestione di documenti, usando un timbro elettronico
 </p>
 
 <!-- ABOUT THE PROJECT -->
 ## Informazioni sul progetto
 
 <p align="center">
-   <img src="screenshot.gif" alt="drawing" width="400"/>
+   <img src="screenshots/backoffice.png" alt="Schermata del backoffice di Glifo" />
 </p>
 Questo progetto utilizza Pocketbase (v0.22.23) per la gestione di documenti caricati online, e per la creazione di un codice QR che punta alla pagina dove si può scaricare questo documento.
 
@@ -104,3 +104,11 @@ Le funzioni disponibili per scrivere logica custom per pb_hooks/*: https://pocke
 ## Contatto
 
 Per maggiori informazioni su questo applicativo, la preghiamo di contattare l'ufficio informatica della Provincia di Forlì-Cesena: [informatica@provincia.fc.it](mailto:informatica@provincia.fc.it)
+
+## Altre schermate dell'applicazione
+
+<img src="screenshots/back-office.png">
+<img src="screenshots/back-office-edit.png">
+<img src="screenshots/front-office.png">
+<img src="screenshots/front-office-mobile.png">
+<img src="screenshots/screenshot.gif">
