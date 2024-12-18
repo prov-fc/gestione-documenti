@@ -32,8 +32,8 @@ description:
       - Gestione documenti
       - Contrassegno elettronico
     screenshots:
-      - screenshots/backoffice.png
-      - screenshots/backoffice-edit.png
+      - screenshots/back-office.png
+      - screenshots/back-office-edit.png
       - screenshots/front-office.png
       - screenshots/front-office-mobile.png
 legal:
