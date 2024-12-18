@@ -1,5 +1,5 @@
 
-<h3 align="center">Glifo</h3>
+<h1 align="center">Glifo</h1>
 
 <p align="center">
     Un'applicazione per la gestione di documenti, usando un timbro elettronico
@@ -11,11 +11,14 @@
 <p align="center">
    <img src="screenshots/back-office.png" alt="Schermata del backoffice di Glifo" />
 </p>
-Questo progetto utilizza Pocketbase (v0.22.23) per la gestione di documenti caricati online, e per la creazione di un codice QR che punta alla pagina dove si può scaricare questo documento.
+
+Usando questa applicazione, si può creare un codice QR da poter inserire su un documento cartaceo, che poi a sua volta punterà al documento firmato digitalmente.
+
+Il QR code in questo modo funge da Timbro Digitale. Per più info riguardo il Timbro Digitale, consultare la pagina [https://www.agid.gov.it/it/piattaforme/sistema-gestione-procedimenti-amministrativi/timbro-digitale](https://www.agid.gov.it/it/piattaforme/sistema-gestione-procedimenti-amministrativi/timbro-digitale)
 
 L'esigenza è nata da un ufficio interno che distribuisce documenti cartacei ottenuti da un documento originario che è nativamente digitale. La necessità è quella di poter verificare l'autenticità e la validità del documento cartaceo ottenendo il suo gemello digitale per verificare che, sia il contenuto che la firma apposta, anch'essa digitale, siano autentici.
 
-Usando questa applicazione, si può creare un codice QR da poter inserire su un documento cartaceo, che poi a sua volta punterà al documento firmato digitalmente.
+_Questo progetto utilizza Pocketbase (v0.22.23) per la gestione di documenti caricati online, e per la creazione di un codice QR che punta alla pagina dove si può scaricare questo documento._
 
 _Nota dalla documentazione di Pocketbase: Please keep in mind that PocketBase is still under active development and full backward compatibility is not guaranteed before reaching v1.0.0. PocketBase is NOT recommended for production critical applications yet, unless you are fine with reading the [changelog](https://github.com/pocketbase/pocketbase/blob/master/CHANGELOG.md) and applying some manual migration steps from time to time._
 
