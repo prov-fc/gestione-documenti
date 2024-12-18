@@ -3,14 +3,11 @@
 
 <p align="center">
     Un'applicazione per la gestione di documenti, usando un timbro elettronico
+   <img src="screenshots/back-office.png" alt="Schermata del backoffice di Glifo" />
 </p>
 
 <!-- ABOUT THE PROJECT -->
 ## Informazioni sul progetto
-
-<p align="center">
-   <img src="screenshots/back-office.png" alt="Schermata del backoffice di Glifo" />
-</p>
 
 Usando questa applicazione, si può creare un codice QR da poter inserire su un documento cartaceo, che poi a sua volta punterà al documento firmato digitalmente.
 
