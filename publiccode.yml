@@ -40,6 +40,9 @@ legal:
   license: MIT
 maintenance:
   type: internal
+  contacts:
+    - name: Ufficio Informatica
+      email: "informatica@provincia.fc.it"
 localisation:
   localisationReady: false
   availableLanguages:
